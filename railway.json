@@ -1,0 +1,8 @@
+
+{
+  "build": {
+    "image": "python:3.10-slim",
+    "commands": ["pip install -r requirements.txt"]
+  },
+  "start": "python engbot.py"
+}
